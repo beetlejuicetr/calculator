@@ -247,6 +247,7 @@ class Ui_MainWindow(object):
              self.lineEdit.setText(islem)
          except:
             self.lineEdit.setText("only natural numbers")
+            islem = ""
     def hepsini_sil(self):
          global islem
          islem = ""
